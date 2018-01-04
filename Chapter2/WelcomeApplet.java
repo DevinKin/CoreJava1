@@ -24,6 +24,8 @@ public class WelcomeApplet extends JApplet
 					JButton grayButton = new JButton("Gray Cornell");
 					grayButton.addActionListener(makeAction("mailto:gray_cornell@apress.com"));
 					panel.add(grayButton);
+
+					add(panel, BorderLayout.SOUTH);
 				}
 			});
 	}
